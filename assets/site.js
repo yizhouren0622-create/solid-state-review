@@ -43,4 +43,19 @@
     });
   }
   window.addEventListener('afterprint', restorePrint);
+
+  const choices = [...document.querySelectorAll('[data-lang-choice]')];
+  function applyLang(lang) {
+    document.documentElement.dataset.lang = lang;
+    try { localStorage.setItem('ssp-answer-lang', lang); } catch (err) { /* private mode */ }
+    for (const button of choices) {
+      button.setAttribute('aria-pressed', String(button.dataset.langChoice === lang));
+    }
+  }
+  if (choices.length) {
+    applyLang(document.documentElement.dataset.lang || 'both');
+    for (const button of choices) {
+      button.addEventListener('click', () => applyLang(button.dataset.langChoice));
+    }
+  }
 })();

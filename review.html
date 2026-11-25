@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>梳理复习 · 固体物理</title>
-  <link rel="stylesheet" href="assets/site.css">
+  <link rel="stylesheet" href="assets/site.css?v=20261125">
 </head>
 <body>
 <header class="site-top" id="siteTop">
@@ -63,7 +63,7 @@
     <p>目录在 PDF 第 2 页：晶体的衍射，倒格子和布里渊区，晶体的衍射条件，原子散射因子和几何结构因子。</p>
 
     <h3>2.1 三种探针</h3>
-    <p>原子间距约 10<sup>−10</sup> m，探针波长也要在这个量级。X 射线光子的最短波长由加速电压决定，课件的例子是约 40 kV 对应约 0.3 Å，和 λ(Å) ≈ 12400 / V(V) 一致。电子波长由 λ = h/p、p²/2m = eV 决定；课件比较说，约 150 V 就能得到约 1 Å 的电子波，同样波长的 X 射线大约要 12 kV。</p>
+    <p>原子间距约 10<sup>−10</sup> m，探针波长也要在这个量级。X 射线光子的最短波长由加速电压决定，课件的例子是约 40 kV 对应约 0.3 Å，和 <span class="math-inline"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>λ</mi><mo>≈</mo><mfrac><mrow><mn>12400</mn></mrow><mrow><mi>V</mi></mrow></mfrac></mrow></math></span> 一致（λ 以 Å 计，V 以伏特计）。电子波长由 <span class="math-inline"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>λ</mi><mo>=</mo><mfrac><mrow><mi>h</mi></mrow><mrow><mi>p</mi></mrow></mfrac></mrow></math></span>、<span class="math-inline"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mfrac><mrow><msup><mi>p</mi><mrow><mn>2</mn></mrow></msup></mrow><mrow><mn>2</mn><mi>m</mi></mrow></mfrac><mo>=</mo><mi>e</mi><mi>V</mi></mrow></math></span> 决定；课件比较说，约 150 V 就能得到约 1 Å 的电子波，同样波长的 X 射线大约要 12 kV。</p>
     <div class="table-scroll">
       <table>
         <thead><tr><th></th><th>散射来源</th><th>课件强调的用途</th><th>课件强调的限制</th></tr></thead>
@@ -78,19 +78,19 @@
     <h3>2.2 倒格子和布里渊区</h3>
     <p>倒格点 K<sub>h</sub> = h<sub>1</sub>b<sub>1</sub> + h<sub>2</sub>b<sub>2</sub> + h<sub>3</sub>b<sub>3</sub>。每个布拉菲正格子对应一个倒格子，倒格子本身也是布拉菲格子。课件第 72 页把正倒格子关系收成五条：</p>
     <ol>
-      <li>a<sub>i</sub> · b<sub>j</sub> = 2π δ<sub>ij</sub>。</li>
-      <li>倒格子原胞体积是正格子原胞体积倒数的 (2π)<sup>3</sup> 倍：Ω Ω* = (2π)<sup>3</sup> = 8π<sup>3</sup>。</li>
+      <li><span class="math-inline"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><msub><mover><mrow><mi>a</mi></mrow><mo stretchy="true">→</mo></mover><mrow><mi>i</mi></mrow></msub><mo>·</mo><msub><mover><mrow><mi>b</mi></mrow><mo stretchy="true">→</mo></mover><mrow><mi>j</mi></mrow></msub><mo>=</mo><mn>2</mn><mi>π</mi><msub><mi>δ</mi><mrow><mi>i</mi><mi>j</mi></mrow></msub></mrow></math></span>。</li>
+      <li>倒格子原胞体积是正格子原胞体积倒数的 <span class="math-inline"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><msup><mrow><mo stretchy="true" fence="true" form="prefix">&#x00028;</mo><mn>2</mn><mi>&#x003C0;</mi><mo stretchy="true" fence="true" form="postfix">&#x00029;</mo></mrow><mrow><mn>3</mn></mrow></msup></mrow></math></span> 倍：<span class="math-inline"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>Ω</mi><msup><mi>Ω</mi><mrow><mo>*</mo></mrow></msup><mo>=</mo><msup><mrow><mo stretchy="true" fence="true" form="prefix">(</mo><mn>2</mn><mi>π</mi><mo stretchy="true" fence="true" form="postfix">)</mo></mrow><mrow><mn>3</mn></mrow></msup><mo>=</mo><mn>8</mn><msup><mi>π</mi><mrow><mn>3</mn></mrow></msup></mrow></math></span>。</li>
       <li>K<sub>h</sub> 是晶面族 (h<sub>1</sub>h<sub>2</sub>h<sub>3</sub>) 的法线。</li>
-      <li>|K<sub>h</sub>| = 2π / d<sub>h1h2h3</sub>。晶面越密，d 越小，倒格矢越长。</li>
+      <li><span class="math-inline"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mrow><mo stretchy="true" fence="true" form="prefix">|</mo><msub><mover><mrow><mi>K</mi></mrow><mo stretchy="true">→</mo></mover><mrow><mi>h</mi></mrow></msub><mo stretchy="true" fence="true" form="postfix">|</mo></mrow><mo>=</mo><mfrac><mrow><mn>2</mn><mi>π</mi></mrow><mrow><msub><mi>d</mi><mrow><msub><mi>h</mi><mrow><mn>1</mn></mrow></msub><msub><mi>h</mi><mrow><mn>2</mn></mrow></msub><msub><mi>h</mi><mrow><mn>3</mn></mrow></msub></mrow></msub></mrow></mfrac></mrow></math></span>。晶面越密，d 越小，倒格矢越长。</li>
       <li>正格矢和倒格矢满足 R<sub>l</sub> · K<sub>h</sub> = 2πμ，μ 为整数。满足这个关系时，一个是正格矢，另一个就是倒格矢。</li>
     </ol>
     <p>简单立方的倒格子仍是简单立方。面心立方的倒格子是体心立方，第一布里渊区是 14 面的截角八面体。体心立方的倒格子是面心立方，第一布里渊区是菱形十二面体。简单六方的倒格子仍是六方，两者转开 30°。</p>
     <p>布里渊区的做法：从某个倒格点向其余倒格点作倒格矢的垂直平分面。第一布里渊区是不过任何中垂面的那一块，也就是倒格子的维格纳–塞茨原胞。第 n 区恰好跨过 n−1 个中垂面。各区体积相同，都等于倒格子原胞体积，都可以平移整数个倒格矢回到第一区。第一区也叫简约布里渊区。</p>
-    <p>立方晶面间距可以直接用来做习题第 1 题：d<sub>hkl</sub> = a / √(h²+k²+l²)，所以简单立方的 d<sub>111</sub> = a/√3。</p>
+    <p>立方晶面间距可以直接用来做习题第 1 题：<span class="math-inline"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><msub><mi>d</mi><mrow><mi>h</mi><mi>k</mi><mi>l</mi></mrow></msub><mo>=</mo><mfrac><mrow><mi>a</mi></mrow><mrow><msqrt><mrow><msup><mi>h</mi><mrow><mn>2</mn></mrow></msup><mo>+</mo><msup><mi>k</mi><mrow><mn>2</mn></mrow></msup><mo>+</mo><msup><mi>l</mi><mrow><mn>2</mn></mrow></msup></mrow></msqrt></mrow></mfrac></mrow></math></span>，所以简单立方的 <span class="math-inline"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><msub><mi>d</mi><mrow><mn>111</mn></mrow></msub><mo>=</mo><mfrac><mrow><mi>a</mi></mrow><mrow><msqrt><mrow><mn>3</mn></mrow></msqrt></mrow></mfrac></mrow></math></span>。</p>
 
     <h3>2.3 衍射条件</h3>
     <p>各原胞之间的干涉加强写成倒空间的衍射方程：散射波矢和入射波矢相差一个倒格矢，k − k<sub>0</sub> = K<sub>h</sub>。这就是劳厄条件。厄瓦尔德作图把同一条件画成球面：以入射波矢的起点为球心，落在球面上的倒格点才发生反射；该倒格矢的中垂面就是对应晶面。</p>
-    <p>倒格矢长度 |K| = 2π/d 把劳厄条件和布拉格定律连在一起。一级衍射的线段上没有别的倒格点；m 级衍射的线段里会有 m−1 个倒格点。</p>
+    <p>倒格矢长度 <span class="math-inline"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mrow><mo stretchy="true" fence="true" form="prefix">|</mo><mover><mrow><mi>K</mi></mrow><mo stretchy="true">→</mo></mover><mo stretchy="true" fence="true" form="postfix">|</mo></mrow><mo>=</mo><mfrac><mrow><mn>2</mn><mi>π</mi></mrow><mrow><mi>d</mi></mrow></mfrac></mrow></math></span> 把劳厄条件和布拉格定律连在一起。一级衍射的线段上没有别的倒格点；m 级衍射的线段里会有 m−1 个倒格点。</p>
 
     <h3>2.4 散射因子、结构因子和消光</h3>
     <p>三个层次和习题第 3 题一一对应：一个原子的散射能力是原子散射因子；一个原胞里不同原子的干涉是几何结构因子；原胞和原胞之间的干涉是上一节的衍射条件。原子里的电子分布会使原子的散射弱于 Z 个自由电子的简单相加。</p>
@@ -98,7 +98,7 @@
     <ul>
       <li>体心立方：h+k+l 为奇数时结构因子为零；为偶数时 F = 2f。</li>
       <li>面心立方：只有 h、k、l 全奇或全偶才出现衍射；奇偶混杂的反射消失。</li>
-      <li>金刚石：在面心立方条件之上再乘相位因子。全奇可以出现；全偶且 (h+k+l)/2 也是偶数才出现。</li>
+      <li>金刚石：在面心立方条件之上再乘相位因子。全奇可以出现；全偶且 <span class="math-inline"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mfrac><mrow><mi>h</mi><mo>+</mo><mi>k</mi><mo>+</mo><mi>l</mi></mrow><mrow><mn>2</mn></mrow></mfrac></mrow></math></span> 也是偶数才出现。</li>
     </ul>
     <p>课件还有一个一维复式链的例子：A、B 等间距交替，入射垂直于链。同种原子干涉加强的条件是 a cosθ = mλ。m 为奇数时强度正比于 |f<sub>A</sub> − f<sub>B</sub>|<sup>2</sup>；若 f<sub>A</sub> = f<sub>B</sub>，奇数级消光。KCl 那道习题用的就是「两种原子散射因子几乎相等」这一情况，放在面心立方的氯化钠型格子上。</p>
 
@@ -107,23 +107,23 @@
 
     <h3>3.1 吸引、排斥和弹性模量</h3>
     <p>绝对零度、不受外力时，原子停在 r<sub>0</sub>。r &gt; r<sub>0</sub> 时合力为吸引，r &lt; r<sub>0</sub> 时合力为排斥。排斥是短程力，随距离衰减得比吸引快。能量零点取在 r → ∞，课件把内能写成</p>
-    <p class="eq">U(r) = −A / r<sup>m</sup> + B / r<sup>n</sup>，A、B、m、n &gt; 0，且 m &lt; n。</p>
-    <p>r<sub>0</sub> 由 dU/dr = 0 决定。离子晶体取 m = 1，并把吸引项的系数写成与马德隆常数有关的 NMe<sup>2</sup>/(4πε<sub>0</sub>)。氯化钠的排斥指数 n = 8，平衡时排斥项的大小是吸引项的 1/8。</p>
+    <div class="math-display"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mrow><mi>U</mi><mo stretchy="false">(</mo><mi>r</mi><mo stretchy="false">)</mo><mo>=</mo><mo>−</mo><mfrac><mrow><mi>A</mi></mrow><mrow><msup><mi>r</mi><mrow><mi>m</mi></mrow></msup></mrow></mfrac><mo>+</mo><mfrac><mrow><mi>B</mi></mrow><mrow><msup><mi>r</mi><mrow><mi>n</mi></mrow></msup></mrow></mfrac></mrow></math></div>，A、B、m、n &gt; 0，且 m &lt; n。</p>
+    <p>r<sub>0</sub> 由 <span class="math-inline"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mfrac><mrow><mi>&#x00064;</mi><mi>U</mi></mrow><mrow><mi>&#x00064;</mi><mi>r</mi></mrow></mfrac><mo>&#x0003D;</mo><mn>0</mn></mrow></math></span> 决定。离子晶体取 m = 1，并把吸引项的系数写成与马德隆常数有关的 <span class="math-inline"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mfrac><mrow><mi>N</mi><mi>M</mi><msup><mi>e</mi><mrow><mn>2</mn></mrow></msup></mrow><mrow><mn>4</mn><mi>&#x003C0;</mi><msub><mi>&#x003B5;</mi><mrow><mn>0</mn></mrow></msub></mrow></mfrac></mrow></math></span>。氯化钠的排斥指数 n = 8，平衡时排斥项的大小是吸引项的 <span class="math-inline"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mfrac><mrow><mn>1</mn></mrow><mrow><mn>8</mn></mrow></mfrac></mrow></math></span>。</p>
     <p>体积弹性模量由热力学定义，再写成内能对体积的导数。平衡体积 V<sub>0</sub> = N β r<sub>0</sub><sup>3</sup>，β 由结构决定。课件列出的几何因子：</p>
     <div class="table-scroll">
       <table>
         <thead><tr><th>结构</th><th>β</th><th>课件给出的近邻关系</th></tr></thead>
         <tbody>
           <tr><td>简单立方</td><td>1</td><td>r<sub>0</sub> = a</td></tr>
-          <tr><td>面心立方</td><td>√2 / 2</td><td>2r<sub>0</sub> = √2 a</td></tr>
-          <tr><td>体心立方</td><td>4√3 / 9</td><td>2r<sub>0</sub> = √3 a</td></tr>
-          <tr><td>氯化钠型</td><td>2</td><td>2r<sub>0</sub> = a</td></tr>
-          <tr><td>氯化铯型</td><td>8√3 / 9</td><td>2r<sub>0</sub> = √3 a</td></tr>
-          <tr><td>闪锌矿型</td><td>16√3 / 9</td><td>4r<sub>0</sub> = √3 a</td></tr>
+          <tr><td>面心立方</td><td><span class="math-inline"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mfrac><mrow><msqrt><mrow><mn>2</mn></mrow></msqrt></mrow><mrow><mn>2</mn></mrow></mfrac></mrow></math></span></td><td><span class="math-inline"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mn>2</mn><msub><mi>r</mi><mrow><mn>0</mn></mrow></msub><mo>=</mo><msqrt><mrow><mn>2</mn></mrow></msqrt><mspace width="0.167em" /><mi>a</mi></mrow></math></span></td></tr>
+          <tr><td>体心立方</td><td><span class="math-inline"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mfrac><mrow><mn>4</mn><msqrt><mrow><mn>3</mn></mrow></msqrt></mrow><mrow><mn>9</mn></mrow></mfrac></mrow></math></span></td><td><span class="math-inline"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mn>2</mn><msub><mi>r</mi><mrow><mn>0</mn></mrow></msub><mo>=</mo><msqrt><mrow><mn>3</mn></mrow></msqrt><mspace width="0.167em" /><mi>a</mi></mrow></math></span></td></tr>
+          <tr><td>氯化钠型</td><td>2</td><td><span class="math-inline"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mn>2</mn><msub><mi>r</mi><mrow><mn>0</mn></mrow></msub><mo>=</mo><mi>a</mi></mrow></math></span></td></tr>
+          <tr><td>氯化铯型</td><td><span class="math-inline"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mfrac><mrow><mn>8</mn><msqrt><mrow><mn>3</mn></mrow></msqrt></mrow><mrow><mn>9</mn></mrow></mfrac></mrow></math></span></td><td><span class="math-inline"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mn>2</mn><msub><mi>r</mi><mrow><mn>0</mn></mrow></msub><mo>=</mo><msqrt><mrow><mn>3</mn></mrow></msqrt><mspace width="0.167em" /><mi>a</mi></mrow></math></span></td></tr>
+          <tr><td>闪锌矿型</td><td><span class="math-inline"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mfrac><mrow><mn>16</mn><msqrt><mrow><mn>3</mn></mrow></msqrt></mrow><mrow><mn>9</mn></mrow></mfrac></mrow></math></span></td><td><span class="math-inline"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mn>4</mn><msub><mi>r</mi><mrow><mn>0</mn></mrow></msub><mo>=</mo><msqrt><mrow><mn>3</mn></mrow></msqrt><mspace width="0.167em" /><mi>a</mi></mrow></math></span></td></tr>
         </tbody>
       </table>
     </div>
-    <p>闪锌矿这一行和 GaAs 的晶格常数题用的是同一几何关系：最近邻沿体对角线的 1/4。</p>
+    <p>闪锌矿这一行和 GaAs 的晶格常数题用的是同一几何关系：最近邻沿体对角线的 <span class="math-inline"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mfrac><mrow><mn>1</mn></mrow><mrow><mn>4</mn></mrow></mfrac></mrow></math></span>。</p>
 
     <h3>五种结合</h3>
     <ul>
@@ -139,11 +139,11 @@
 
     <h3>点缺陷</h3>
     <p>肖特基缺陷：原子获得足够能量后迁到表面，内部留下空位。产生 n 个空位使内能增加 n u<sub>v</sub>，排列方式数是从 N 个格点里选 n 个的组合数，熵增加 k<sub>B</sub> ln Ω。自由能 F = U − TS 对 n 取极小，并用斯特令公式，在 n ≪ N 时得到</p>
-    <p><div class="math-display"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mrow><mi>n</mi><mo>&#x02248;</mo><mi>N</mi><msup><mi>e</mi><mrow><mo>&#x02212;</mo><msub><mi>u</mi><mi>v</mi></msub><mo>&#x0002F;</mo><msub><mi>k</mi><mrow><mi>&#x00042;</mi></mrow></msub><mi>T</mi></mrow></msup></mrow></math></div></p>
+    <div class="math-display"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mrow><mi>n</mi><mo>≈</mo><mi>N</mi><msup><mi>e</mi><mrow><mo>−</mo><mfrac><mrow><msub><mi>u</mi><mi>v</mi></msub></mrow><mrow><msub><mi>k</mi><mrow><mi>B</mi></mrow></msub><mi>T</mi></mrow></mfrac></mrow></msup></mrow></math></div>
     <p>数目对温度极敏感。课件的纯铜例子：u<sub>v</sub> = 1 eV 时，1000 K 的浓度约 10<sup>−5</sup>，室温约 10<sup>−17</sup>，差 12 个数量级。</p>
     <p>弗伦克尔缺陷：原子进入间隙，同时留下空位，空位和填隙成对出现。设间隙位置有 N′ 个，形成能是 u<sub>i</sub>，平衡数目是</p>
-    <p><div class="math-display"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mrow><mi>n</mi><mo>&#x0003D;</mo><msqrt><mrow><mi>N</mi><msup><mi>N</mi><mi>&#x02032;</mi></msup></mrow></msqrt><mspace width="0.167em" /><msup><mi>e</mi><mrow><mo>&#x02212;</mo><msub><mi>u</mi><mi>i</mi></msub><mo>&#x0002F;</mo><mo stretchy="false">&#x00028;</mo><mn>2</mn><msub><mi>k</mi><mrow><mi>&#x00042;</mi></mrow></msub><mi>T</mi><mo stretchy="false">&#x00029;</mo></mrow></msup></mrow></math></div></p>
-    <p>N′ 可以等于 N，也可以更大。课件举例：面心立方的四面体间隙数是原子数的 2 倍。分母里的 2 来自空位和填隙各贡献一份组合熵，做题时不要漏掉分母里的 2，写成和肖特基缺陷一样的 <span class="math-inline"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><msup><mi>e</mi><mrow><mo>&#x02212;</mo><mi>u</mi><mo>&#x0002F;</mo><msub><mi>k</mi><mrow><mi>&#x00042;</mi></mrow></msub><mi>T</mi></mrow></msup></mrow></math></span>。</p>
+    <div class="math-display"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mrow><mi>n</mi><mo>=</mo><msqrt><mrow><mi>N</mi><msup><mi>N</mi><mi>′</mi></msup></mrow></msqrt><mspace width="0.167em" /><msup><mi>e</mi><mrow><mo>−</mo><mfrac><mrow><msub><mi>u</mi><mi>i</mi></msub></mrow><mrow><mn>2</mn><msub><mi>k</mi><mrow><mi>B</mi></mrow></msub><mi>T</mi></mrow></mfrac></mrow></msup></mrow></math></div>
+    <p>N′ 可以等于 N，也可以更大。课件举例：面心立方的四面体间隙数是原子数的 2 倍。分母里的 2 来自空位和填隙各贡献一份组合熵，做题时不要漏掉分母里的 2，写成和肖特基缺陷一样的 <span class="math-inline"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><msup><mi>e</mi><mrow><mo>−</mo><mfrac><mrow><mi>u</mi></mrow><mrow><msub><mi>k</mi><mrow><mi>B</mi></mrow></msub><mi>T</mi></mrow></mfrac></mrow></msup></mrow></math></span>。</p>
     <p>反位缺陷是化合物里两种原子交换位置。色心是点缺陷或其复合体俘获电子或空穴后产生附加吸收、使晶体着色。电子型色心俘获电子，空穴型俘获空穴。F 心是卤化碱中阴离子空位俘获一个电子；课件还列出 R 心（F<sub>3</sub>）、V<sub>K</sub> 心和 H 心。被俘获的电子和周围离子的位形耦合，吸收之后会再发射声子，这是位形坐标模型要讲的内容。</p>
 
     <h3>线缺陷：位错</h3>
@@ -155,32 +155,32 @@
     <p>伯氏矢量的大小是滑移一步造成的切变量，方向与滑移方向一致。习题第 1、3、4 题都在区分这两类，以及它们和空位、晶界的差别。</p>
 
     <h3>面缺陷</h3>
-    <p>课件列了三类：堆垛层错、孪晶界面、晶粒间界。层错出现在密堆积结构，只打乱次近邻的堆垛顺序，最近邻不变，所以能量远低于晶界。晶界是几个原子间距宽的过渡区。取向差超过 15° 算大角晶界。小角晶界可以看成一排位错，间距 D 和伯氏矢量、倾角满足 D = b/θ。</p>
+    <p>课件列了三类：堆垛层错、孪晶界面、晶粒间界。层错出现在密堆积结构，只打乱次近邻的堆垛顺序，最近邻不变，所以能量远低于晶界。晶界是几个原子间距宽的过渡区。取向差超过 15° 算大角晶界。小角晶界可以看成一排位错，间距 D 和伯氏矢量、倾角满足 <span class="math-inline"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>D</mi><mo>=</mo><mfrac><mrow><mi>b</mi></mrow><mrow><mi>θ</mi></mrow></mfrac></mrow></math></span>。</p>
 
     <h2 id="ch5">第五章 晶格振动</h2>
     <p>前面几章把原子放在格点上不动。实际上每个原子都在平衡位置附近振动，而且因为有相互作用，振动是集体的，用格波描述。只有振幅很小、力与相对位移成正比时，各模式才彼此独立，这就是简谐近似。课件同时说明：原子的德布罗意波长约 0.01 Å，所以格点的运动本身仍可用经典力学写方程，量子化的是格波的能量。</p>
 
     <h3>§4.1 一维单原子链</h3>
     <p>只保留最近邻、只保留相对位移的二次项。课件的势能和受力是</p>
-    <p class="eq">Φ = (β/2) Σ (u<sub>n</sub> − u<sub>n−1</sub>)²，　f<sub>n</sub> = −β (2u<sub>n</sub> − u<sub>n+1</sub> − u<sub>n−1</sub>)。</p>
-    <p>β 是近邻力常数，单位 N/m。运动方程 m ü<sub>n</sub> = β (u<sub>n+1</sub> + u<sub>n−1</sub> − 2u<sub>n</sub>)。代入行波 u<sub>n</sub> ∝ exp[i(qna − ωt)]，得到色散关系</p>
-    <p class="eq">ω = 2 √(β/m) |sin(qa/2)|。</p>
-    <p>q = π/a 时频率最高，ω<sub>max</sub> = 2√(β/m)。ω 对 q 的周期是 2π/a，和一维倒格矢相同，所以 q 和 q + 2πh/a 描述同一个振动，波矢可以限制在简约布里渊区 −π/a &lt; q ≤ π/a。</p>
-    <p>长波 qa ≪ 1 时 ω 与 q 成正比，相速度 a√(β/m)，和连续介质里的声速 √(弹性模量/线密度) 相同。这类格波叫声学支。布里渊区边界上群速度 dω/dq = 0，相邻原子相位相反，成为驻波，能量不再往前传。</p>
+    <div class="math-display"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mrow><mi>&#x003A6;</mi><mo>&#x0003D;</mo><mfrac><mrow><mi>&#x003B2;</mi></mrow><mrow><mn>2</mn></mrow></mfrac><mo>&#x02211;</mo><msup><mrow><mo stretchy="true" fence="true" form="prefix">&#x00028;</mo><msub><mi>u</mi><mrow><mi>n</mi></mrow></msub><mo>&#x02212;</mo><msub><mi>u</mi><mrow><mi>n</mi><mo>&#x02212;</mo><mn>1</mn></mrow></msub><mo stretchy="true" fence="true" form="postfix">&#x00029;</mo></mrow><mrow><mn>2</mn></mrow></msup></mrow></math></div><div class="math-display"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mrow><msub><mi>f</mi><mrow><mi>n</mi></mrow></msub><mo>=</mo><mo>−</mo><mi>β</mi><mrow><mo stretchy="true" fence="true" form="prefix">(</mo><mn>2</mn><msub><mi>u</mi><mrow><mi>n</mi></mrow></msub><mo>−</mo><msub><mi>u</mi><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></msub><mo>−</mo><msub><mi>u</mi><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow></msub><mo stretchy="true" fence="true" form="postfix">)</mo></mrow></mrow></math></div>
+    <p>β 是近邻力常数，单位 N/m。运动方程 <span class="math-inline"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>m</mi><msub><mover><mrow><mi>u</mi></mrow><mo>¨</mo></mover><mrow><mi>n</mi></mrow></msub><mo>=</mo><mi>β</mi><mrow><mo stretchy="true" fence="true" form="prefix">(</mo><msub><mi>u</mi><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></msub><mo>+</mo><msub><mi>u</mi><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow></msub><mo>−</mo><mn>2</mn><msub><mi>u</mi><mrow><mi>n</mi></mrow></msub><mo stretchy="true" fence="true" form="postfix">)</mo></mrow></mrow></math></span>。代入行波 <span class="math-inline"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><msub><mi>u</mi><mrow><mi>n</mi></mrow></msub><mo>∝</mo><msup><mi>e</mi><mrow><mi>i</mi><mo stretchy="false">(</mo><mi>q</mi><mi>n</mi><mi>a</mi><mo>−</mo><mi>ω</mi><mi>t</mi><mo stretchy="false">)</mo></mrow></msup></mrow></math></span>，得到色散关系</p>
+    <div class="math-display"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mrow><mi>ω</mi><mo>=</mo><mn>2</mn><msqrt><mrow><mfrac><mrow><mi>β</mi></mrow><mrow><mi>m</mi></mrow></mfrac></mrow></msqrt><mrow><mo stretchy="true" fence="true" form="prefix">|</mo><mi mathvariant="normal">sin</mi><mspace width="0.167em"/><mfrac><mrow><mi>q</mi><mi>a</mi></mrow><mrow><mn>2</mn></mrow></mfrac><mo stretchy="true" fence="true" form="postfix">|</mo></mrow></mrow></math></div>
+    <p><span class="math-inline"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>q</mi><mo>=</mo><mfrac><mrow><mi>π</mi></mrow><mrow><mi>a</mi></mrow></mfrac></mrow></math></span> 时频率最高，<span class="math-inline"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><msub><mi>ω</mi><mrow><mo>max</mo></mrow></msub><mo>=</mo><mn>2</mn><msqrt><mrow><mfrac><mrow><mi>β</mi></mrow><mrow><mi>m</mi></mrow></mfrac></mrow></msqrt></mrow></math></span>。ω 对 q 的周期是 <span class="math-inline"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mfrac><mrow><mn>2</mn><mi>π</mi></mrow><mrow><mi>a</mi></mrow></mfrac></mrow></math></span>，和一维倒格矢相同，所以 q 和 <span class="math-inline"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>q</mi><mo>+</mo><mfrac><mrow><mn>2</mn><mi>π</mi><mi>h</mi></mrow><mrow><mi>a</mi></mrow></mfrac></mrow></math></span> 描述同一个振动，波矢可以限制在简约布里渊区 <span class="math-inline"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mo>−</mo><mfrac><mrow><mi>π</mi></mrow><mrow><mi>a</mi></mrow></mfrac><mo>&lt;</mo><mi>q</mi><mo>≤</mo><mfrac><mrow><mi>π</mi></mrow><mrow><mi>a</mi></mrow></mfrac></mrow></math></span>。</p>
+    <p>长波 qa ≪ 1 时 ω 与 q 成正比，相速度 <span class="math-inline"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>a</mi><msqrt><mrow><mfrac><mrow><mi>β</mi></mrow><mrow><mi>m</mi></mrow></mfrac></mrow></msqrt></mrow></math></span>，和连续介质里的声速 √(弹性模量/线密度) 相同。这类格波叫声学支。布里渊区边界上群速度 <span class="math-inline"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mfrac><mrow><mi>&#x00064;</mi><mi>&#x003C9;</mi></mrow><mrow><mi>&#x00064;</mi><mi>q</mi></mrow></mfrac><mo>&#x0003D;</mo><mn>0</mn></mrow></math></span>，相邻原子相位相反，成为驻波，能量不再往前传。</p>
 
     <h3>§4.2 一维双原子链</h3>
     <p>原胞里有两个原子时，每个波矢对应两支。声学支相邻原子同向振动，振幅比大于零。光学支振幅比为负，相邻原子反向；长波光学支的频率不为零。课件在布里渊区边界比较了光学支两个原子的振幅。离子晶体的长波光学支会和电磁波耦合，这是「光学支」这个名字的来源；单原子链没有光学支。</p>
 
     <h3>§4.3 声子</h3>
-    <p>周期边界使允许的波矢分立。每个独立模式是一个量子谐振子，能量是 (n + 1/2) ℏω。多出来的 1/2 ℏω 是零点能。n 增加 1 就是产生一个声子，减少 1 就是湮没一个声子。声子是准粒子，不是可以单独拿出来的真实粒子，数目也不守恒。它是玻色子，热平衡时一个模式的平均声子数是</p>
-    <p><div class="math-display"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mrow><mi>&#x027E8;</mi><mi>n</mi><mi>&#x027E9;</mi><mo>&#x0003D;</mo><mfrac><mrow><mn>1</mn></mrow><mrow><msup><mi>e</mi><mrow><mi>&#x0210F;</mi><mi>&#x003C9;</mi><mo>&#x0002F;</mo><msub><mi>k</mi><mrow><mi>&#x00042;</mi></mrow></msub><mi>T</mi></mrow></msup><mo>&#x02212;</mo><mn>1</mn></mrow></mfrac></mrow></math></div></p>
-    <p>高温时 ⟨n⟩ ≈ k<sub>B</sub>T / ℏω，和温度成正比。ℏq 叫晶体动量，不是粒子的真实动量。q 与 q 加上一个倒格矢代表同一个声子态：能量相同，晶格振动也相同。</p>
+    <p>周期边界使允许的波矢分立。每个独立模式是一个量子谐振子，能量是 <span class="math-inline"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mrow><mo stretchy="true" fence="true" form="prefix">(</mo><mi>n</mi><mo>+</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></mfrac><mo stretchy="true" fence="true" form="postfix">)</mo></mrow><mi>ℏ</mi><mi>ω</mi></mrow></math></span>。多出来的 <span class="math-inline"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mfrac><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></mfrac><mi>ℏ</mi><mi>ω</mi></mrow></math></span> 是零点能。n 增加 1 就是产生一个声子，减少 1 就是湮没一个声子。声子是准粒子，不是可以单独拿出来的真实粒子，数目也不守恒。它是玻色子，热平衡时一个模式的平均声子数是</p>
+    <div class="math-display"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mrow><mi>⟨</mi><mi>n</mi><mi>⟩</mi><mo>=</mo><mfrac><mrow><mn>1</mn></mrow><mrow><msup><mi>e</mi><mrow><mfrac><mrow><mi>ℏ</mi><mi>ω</mi></mrow><mrow><msub><mi>k</mi><mrow><mi>B</mi></mrow></msub><mi>T</mi></mrow></mfrac></mrow></msup><mo>−</mo><mn>1</mn></mrow></mfrac></mrow></math></div>
+    <p>高温时 <span class="math-inline"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>⟨</mi><mi>n</mi><mi>⟩</mi><mo>≈</mo><mfrac><mrow><msub><mi>k</mi><mrow><mi>B</mi></mrow></msub><mi>T</mi></mrow><mrow><mi>ℏ</mi><mi>ω</mi></mrow></mfrac></mrow></math></span>，和温度成正比。ℏq 叫晶体动量，不是粒子的真实动量。q 与 q 加上一个倒格矢代表同一个声子态：能量相同，晶格振动也相同。</p>
     <p>三维、每个原胞 r 个原子时，一共有 3rN 个模式，N 是原胞数。沿布里渊区对称轴，常常可以分成 1 支纵波和 2 支横波。其中 3 支是声学支，其余 3r − 3 支是光学支。态密度和群速度成反比：群速度越小，同样的频率间隔里模式越多。德拜模型的态密度只拟合长波声学支那段抛物线。</p>
 
     <h3>§4.7 晶格比热</h3>
     <p>经典能量均分：3rN 个简正模式在高温下都充分激发，总内能 U = 3rN k<sub>B</sub>T，比热是常数。这就是杜隆–珀蒂定律，高温下与温度、与具体材料都无关。</p>
     <ul>
-      <li>爱因斯坦模型（1907）让所有模式共用一个频率 ω<sub>E</sub>，特征温度 Θ<sub>E</sub> = ℏω<sub>E</sub> / k<sub>B</sub>。它能说明比热在低温下降，但忽略了格波色散，低温降得太快。课件用金刚石的实验作比较。</li>
+      <li>爱因斯坦模型（1907）让所有模式共用一个频率 ω<sub>E</sub>，特征温度 <span class="math-inline"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><msub><mi>Θ</mi><mrow><mi>E</mi></mrow></msub><mo>=</mo><mfrac><mrow><mi>ℏ</mi><msub><mi>ω</mi><mrow><mi>E</mi></mrow></msub></mrow><mrow><msub><mi>k</mi><mrow><mi>B</mi></mrow></msub></mrow></mfrac></mrow></math></span>。它能说明比热在低温下降，但忽略了格波色散，低温降得太快。课件用金刚石的实验作比较。</li>
       <li>德拜模型只保留长波声学支，把晶体看成连续介质，纵波、横波各有自己的速度，并用原子总数截断一个最高频率。低温比热按 T<sup>3</sup> 下降，和实验符合；高温仍回到杜隆–珀蒂定律。德拜温度 Θ<sub>D</sub> 反映结合的强弱。缺点是色散被简化了，Θ<sub>D</sub> 实际上会随温度变化。课件有一道例题：用德拜模型求零点振动能。</li>
     </ul>
 
@@ -193,6 +193,6 @@
   </article>
 </main>
 <footer class="site-footer">页码是各课件 PDF 的物理页序。第三章和第五章目前没有习题页。</footer>
-<script src="assets/site.js"></script>
+<script src="assets/site.js?v=20261125"></script>
 </body>
 </html>

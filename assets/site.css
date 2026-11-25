@@ -210,11 +210,37 @@ th { background: #f7f1e7; color: #5c4a32; }
 .figure img { max-width: 420px; background: #fff; border: 1px solid var(--line); border-radius: 8px; }
 .honeycomb, .bz-fig { width: min(100%, 320px); height: auto; background: #fff; border: 1px solid var(--line); border-radius: 8px; }
 .cap { color: var(--muted); font-size: 0.88rem; margin-top: 0.25em; }
-.lang-label { font-size: 0.78rem; color: var(--accent); font-weight: 700; margin: 0.9em 0 0.25em; }
-.zh { border-top: 1px dashed var(--line); margin-top: 0.8em; padding-top: 0.2em; }
-.math-display { overflow-x: auto; margin: 0.35em 0; }
+.lang-switch { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; margin: 0.15em 0 1em; }
+.lang-switch span { color: var(--muted); font-size: 0.88rem; margin-right: 2px; }
+.lang-switch button {
+  font: inherit;
+  border: 1px solid var(--line);
+  background: var(--paper);
+  border-radius: 8px;
+  padding: 0.45em 0.8em;
+  cursor: pointer;
+}
+.lang-switch button[aria-pressed="true"] {
+  background: var(--accent);
+  color: #fffdf9;
+  border-color: var(--accent);
+}
+.lang-label { font-size: 0.78rem; color: var(--accent); font-weight: 700; margin: 0.15em 0 0.35em; }
+html[data-lang="zh"] .en { display: none; }
+html[data-lang="en"] .zh { display: none; }
+html[data-lang="zh"] .lang-label,
+html[data-lang="en"] .lang-label { display: none; }
+html[data-lang="both"] .bilingual > .zh,
+html:not([data-lang]) .bilingual > .zh {
+  border-top: 1px dashed var(--line);
+  margin-top: 0.95em;
+  padding-top: 0.35em;
+}
+.math-inline { white-space: nowrap; }
+.math-display { overflow-x: auto; margin: 0.45em 0; }
 .math-inline math, .math-display math { font-family: "Cambria Math", "STIX Two Math", "Times New Roman", serif; }
-.math-display math { font-size: 1.12em; }
+.math-inline math { font-size: 1.12em; }
+.math-display math { font-size: 1.22em; }
 
 @media (max-width: 860px) {
   .site-menu-btn { display: inline-block; }
@@ -235,7 +261,7 @@ th { background: #f7f1e7; color: #5c4a32; }
 
 @media print {
   body { padding: 0; background: #fff; }
-  .site-top, .site-footer, .exam-actions, .toc { display: none !important; }
+  .site-top, .site-footer, .exam-actions, .lang-switch, .toc { display: none !important; }
   .hub, .page { max-width: none; padding: 0; }
   .hub-card, .sheet { border: 0; padding: 0; }
   .reveal { display: none !important; }
