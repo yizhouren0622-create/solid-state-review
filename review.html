@@ -139,11 +139,11 @@
 
     <h3>点缺陷</h3>
     <p>肖特基缺陷：原子获得足够能量后迁到表面，内部留下空位。产生 n 个空位使内能增加 n u<sub>v</sub>，排列方式数是从 N 个格点里选 n 个的组合数，熵增加 k<sub>B</sub> ln Ω。自由能 F = U − TS 对 n 取极小，并用斯特令公式，在 n ≪ N 时得到</p>
-    <p class="eq">n ≈ N exp(−u<sub>v</sub> / k<sub>B</sub>T)。</p>
+    <p><div class="math-display"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mrow><mi>n</mi><mo>&#x02248;</mo><mi>N</mi><msup><mi>e</mi><mrow><mo>&#x02212;</mo><msub><mi>u</mi><mi>v</mi></msub><mo>&#x0002F;</mo><msub><mi>k</mi><mrow><mi>&#x00042;</mi></mrow></msub><mi>T</mi></mrow></msup></mrow></math></div></p>
     <p>数目对温度极敏感。课件的纯铜例子：u<sub>v</sub> = 1 eV 时，1000 K 的浓度约 10<sup>−5</sup>，室温约 10<sup>−17</sup>，差 12 个数量级。</p>
     <p>弗伦克尔缺陷：原子进入间隙，同时留下空位，空位和填隙成对出现。设间隙位置有 N′ 个，形成能是 u<sub>i</sub>，平衡数目是</p>
-    <p class="eq">n = √(N N′) exp(−u<sub>i</sub> / 2k<sub>B</sub>T)。</p>
-    <p>N′ 可以等于 N，也可以更大。课件举例：面心立方的四面体间隙数是原子数的 2 倍。分母里的 2 来自空位和填隙各贡献一份组合熵，做题时不要写成和肖特基一样的 exp(−u/k<sub>B</sub>T)。</p>
+    <p><div class="math-display"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mrow><mi>n</mi><mo>&#x0003D;</mo><msqrt><mrow><mi>N</mi><msup><mi>N</mi><mi>&#x02032;</mi></msup></mrow></msqrt><mspace width="0.167em" /><msup><mi>e</mi><mrow><mo>&#x02212;</mo><msub><mi>u</mi><mi>i</mi></msub><mo>&#x0002F;</mo><mo stretchy="false">&#x00028;</mo><mn>2</mn><msub><mi>k</mi><mrow><mi>&#x00042;</mi></mrow></msub><mi>T</mi><mo stretchy="false">&#x00029;</mo></mrow></msup></mrow></math></div></p>
+    <p>N′ 可以等于 N，也可以更大。课件举例：面心立方的四面体间隙数是原子数的 2 倍。分母里的 2 来自空位和填隙各贡献一份组合熵，做题时不要漏掉分母里的 2，写成和肖特基缺陷一样的 <span class="math-inline"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><msup><mi>e</mi><mrow><mo>&#x02212;</mo><mi>u</mi><mo>&#x0002F;</mo><msub><mi>k</mi><mrow><mi>&#x00042;</mi></mrow></msub><mi>T</mi></mrow></msup></mrow></math></span>。</p>
     <p>反位缺陷是化合物里两种原子交换位置。色心是点缺陷或其复合体俘获电子或空穴后产生附加吸收、使晶体着色。电子型色心俘获电子，空穴型俘获空穴。F 心是卤化碱中阴离子空位俘获一个电子；课件还列出 R 心（F<sub>3</sub>）、V<sub>K</sub> 心和 H 心。被俘获的电子和周围离子的位形耦合，吸收之后会再发射声子，这是位形坐标模型要讲的内容。</p>
 
     <h3>线缺陷：位错</h3>
@@ -173,7 +173,7 @@
 
     <h3>§4.3 声子</h3>
     <p>周期边界使允许的波矢分立。每个独立模式是一个量子谐振子，能量是 (n + 1/2) ℏω。多出来的 1/2 ℏω 是零点能。n 增加 1 就是产生一个声子，减少 1 就是湮没一个声子。声子是准粒子，不是可以单独拿出来的真实粒子，数目也不守恒。它是玻色子，热平衡时一个模式的平均声子数是</p>
-    <p class="eq">⟨n⟩ = 1 / (exp(ℏω / k<sub>B</sub>T) − 1)。</p>
+    <p><div class="math-display"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mrow><mi>&#x027E8;</mi><mi>n</mi><mi>&#x027E9;</mi><mo>&#x0003D;</mo><mfrac><mrow><mn>1</mn></mrow><mrow><msup><mi>e</mi><mrow><mi>&#x0210F;</mi><mi>&#x003C9;</mi><mo>&#x0002F;</mo><msub><mi>k</mi><mrow><mi>&#x00042;</mi></mrow></msub><mi>T</mi></mrow></msup><mo>&#x02212;</mo><mn>1</mn></mrow></mfrac></mrow></math></div></p>
     <p>高温时 ⟨n⟩ ≈ k<sub>B</sub>T / ℏω，和温度成正比。ℏq 叫晶体动量，不是粒子的真实动量。q 与 q 加上一个倒格矢代表同一个声子态：能量相同，晶格振动也相同。</p>
     <p>三维、每个原胞 r 个原子时，一共有 3rN 个模式，N 是原胞数。沿布里渊区对称轴，常常可以分成 1 支纵波和 2 支横波。其中 3 支是声学支，其余 3r − 3 支是光学支。态密度和群速度成反比：群速度越小，同样的频率间隔里模式越多。德拜模型的态密度只拟合长波声学支那段抛物线。</p>
 
